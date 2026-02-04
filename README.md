@@ -1,0 +1,1 @@
+This project is a typing game and test for people who want to imrove their typing skills.I was inspired to make this by MonkeyType another typing test.I hope people like it and give feedbacks for improvements.
