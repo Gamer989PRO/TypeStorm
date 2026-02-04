@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ TypeStorm ⚡</title>
+    <!-- Link your CSS file -->
+    <link rel="stylesheet" href="TypeStormStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>⚡ TypeStorm ⚡</h1>
+
+        <div class="settings">
+            <span>Time: </span>
+            <button class="time-btn" data-time="15">15s</button>
+            <button class="time-btn" data-time="30">30s</button>
+            <button class="time-btn" data-time="60">60s</button>
+            <button class="time-btn" data-time="120">120s</button>
+        </div>
+
+        <div id="text-container">
+            <div id="text"></div>
+        </div>
+
+        <input type="text" id="input" placeholder="Start typing..." autofocus>
+
+        <div class="stats">
+            <div>Time: <span id="time">60</span>s</div>
+            <div>WPM: <span id="wpm">0</span></div>
+            <div>Accuracy: <span id="accuracy">100</span>%</div>
+        </div>
+
+        <button id="restart">Restart</button>
+    </div>
+
+    <!-- Link your JS file -->
+    <script src="TypeStormScript.JS"></script>
+</body>
+
+</html>
+
+   

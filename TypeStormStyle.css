@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+}
+
+.container {
+    background: #2c2a3a;
+    padding: 40px;
+    border-radius: 20px;
+    width: 900px;
+    max-width: 95%;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #00fff0;
+    text-shadow: 0 0 10px #00fff0, 0 0 20px #00fff0;
+}
+
+.settings {
+    margin-bottom: 20px;
+}
+
+.time-btn {
+    background: #444261;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.time-btn:hover {
+    background: #00fff0;
+    color: #2c2a3a;
+}
+
+#text-container {
+    height: 160px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #1e1b2f;
+    border-radius: 15px;
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+span.correct {
+    color: #4caf50;
+}
+
+span.incorrect {
+    color: #f44336;
+}
+
+span.current-word {
+    text-decoration: underline;
+    text-decoration-color: #00fff0;
+    text-decoration-thickness: 2px;
+}
+
+#input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 2px solid #444261;
+    outline: none;
+    margin-bottom: 20px;
+    transition: border 0.3s, box-shadow 0.3s;
+    background: #1e1b2f;
+    color: #fff;
+}
+
+#input:focus {
+    border-color: #00fff0;
+    box-shadow: 0 0 10px #00fff0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button#restart {
+    background: #00fff0;
+    color: #2c2a3a;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button#restart:hover {
+    background: #00c4b4;
+}
